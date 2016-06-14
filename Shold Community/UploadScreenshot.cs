@@ -19,17 +19,16 @@ namespace Shold_Community
     {
 
         public static String GetListFromYandexApi()
-        {                                                                                                                               //ARb5DIcAAyM5KQRLGzYRTdCM3d69ZVPmuw
-            //HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://api-fotki.yandex.ru/api/users/shold-community/?oauth_token=ARbxfUwAAyM5MvWK2GMERsymbP1h2_NS8A");
+        {                                                                                                                       
+            
             //HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://api-fotki.yandex.ru/api/users/shold-community/");
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://api-fotki.yandex.ru/api/users/sholdcommunity/");
-            //HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://api-fotki.yandex.ru/api/users/shold-community/?oauth_token=ARbxfUwAAyM5QcNtzQ7gSraQX3qmiKbSXg");
-            //HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://oauth.yandex.ru/authorize?response_type=token&client_id=d4dac9ca4fa848ec91816792ce2b886f");
+            
             request.Accept = "application/json";
-            request.Headers.Add("Authorization", "OAuth ARb5DIcAAyM5KQRLGzYRTdCM3d69ZVPmuw"); // sholdcommunity OAuth ARb5DIcAAyM5KQRLGzYRTdCM3d69ZVPmuw
-            //Stream requestStream = request.GetRequestStream();                             // shold-community OAuth ARbxfUwAAyM5MvWK2GMERsymbP1h2_NS8A
+            request.Headers.Add("Authorization", "OAuth *Put key here* "); // sholdcommunity 
+            //Stream requestStream = request.GetRequestStream();                             
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-            //var sdk = new DiskSdkClient("ARbxfUwAAyM5QcNtzQ7gSraQX3qmiKbSXg");
+            
 
             Stream data = (Stream)response.GetResponseStream();
             //            }
@@ -63,8 +62,8 @@ namespace Shold_Community
             request.Accept = "application/json";
             request.Method = "POST";
             request.ContentType = "multipart/form-data; boundary="+boundarynumber;
-            //request.Headers.Add("Authorization", "OAuth ARbxfUwAAyM5MvWK2GMERsymbP1h2_NS8A");  // shold.community
-            request.Headers.Add("Authorization", "OAuth ARb5DIcAAyM5KQRLGzYRTdCM3d69ZVPmuw");  // sholdcommunity
+            
+            request.Headers.Add("Authorization", "OAuth *Put key here*");  // sholdcommunity
             //System.Text.Encoding.UTF8.GetBytes(bmp);
             //            request.ContentType = "multipart/form-data; charset=UTF-8; boundary=-----------------------------" + boundarynumber;
             /*            request.KeepAlive = true;
@@ -175,7 +174,7 @@ namespace Shold_Community
                             //                boundary + "\r\nContent-Disposition: form-data; name = \"image\";\"filename=\""
                             );
             */
-            byte[] EncodedPostParams = Encoding.GetEncoding(65001).GetBytes("Authorization: OAuth ARbxfUwAAyM5QcNtzQ7gSraQX3qmiKbSXg");
+            byte[] EncodedPostParams = Encoding.GetEncoding(65001).GetBytes("Authorization: OAuth *Put key here*");
                         /*
                                     byte[] EncodedPostParams = Encoding.GetEncoding(1251).GetBytes(
                                         boundary + "\r\nContent-Disposition: form-data; name=\"rm\"\r\n\r\nexecuted-puzzle\r\n" +
