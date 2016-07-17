@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="richTextBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 342</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Всем здрямк!
+
+Перед использованием программы, пожалуйста, скопируйте все свои построения из игры куда-нибудь в надежное место!!!
+
+Ошибок программа будет выдавать неимоверное кол-во - пока просьба отнестись к ним со снисхождением. В процессе пользования этой пред-альфа версией главное запомнить последовательность действий и будете получать ожидаемый результат.  О большинстве возможных ошибок я знаю. 
+Программа пока в процессе разработки. На данный момент в первую очередь тестируется и дорабатывается серверная часть. Клиентская часть (то, что вы видите) будет в дальнейшем переписываться с нуля + Andriod. В клиентской части реализовано пока что очень мало из задуманного: сохранение и обмен шаблонами построений и запросы на ресурсы. Это все видно только вашим друзьям.
+Цель задумки - снять ограничение в 40 человек (в игре в почтовом чате может быть не более 43-х человек) для быстрой координации игроков-союзников.
+
+У вас у каждого есть по одному инвайту (приглашению) (у первых тестеров больше) нового пользователя. Таким образом вы можете подтянуть по цепочке всю свою команду (фракцию,  Дом, других союзников).
+
+
+Первое ознакомление с программой.
+1.Для того чтобы авторизоваться вам нужно делать следующие действия:
+Нажать сверху на панели "Настройки" -&gt; "Авторизация"
+Далее Вы увидите небольшое окно" Настройки Авторизации"
+В него вводите свои данные предоставленные Администрацией (либо пригласившим пользователем).
+Далее появится окно с надписью "Залогинились".
+Приступаем к работе с возможностями программы:
+
+2.Для добавления или удаления друзей переходим во вкладку "Настройки" -&gt; "Друзья"
+2.1 НА ДАННЫЙ момент добавление - удаление происходит в двухстороннем порядке без запросов другому игроку. В будущем, естественно, это будет по-другому. + Будут групповые союзники.
+
+3.Работа с деревнями.
+3.1 Меню "Настройки" -&gt; "Управление деревнями" добавляем хотя бы одну деревню. Очень желательно добавить существующий id Вашей деревни (чтобы союзники знали куда реально слать ресурсы). 
+3.2 Меню "Настройки" -&gt; "Вместимость складов" - заполняем свои макс. вместимости
+
+Теперь можно перейти на вкладку "Ресурсы"
+4.1 Ресурсы.
+В данном разделе можно отслеживать запросы на какой либо вид ресурсов от вас или друзей.
+4.2 Запрос на ресурсы - требует наличия хотя бы одной деревни. Выбираем деревню куда нужны ресурсы. Выбираем тип и наименование запрашиваемого ресурса. Вводим нужное кол-во этого ресурса (вместимость заполнится автоматом, если Вы настроили п.3.2) Нажимаем на "Новый запрос"
+
+4. Построение.
+Это базовая вкладка на которую Вы перемещаетесь автоматически.
+4.1 Выпадающее меню (слева от "Построения союзников") позволяет выбрать тип построений.
+При выборе любого Вы увидите Ваши добавленные построения и построения добавленные Вашими друзьями. При выборе построения и нажатии кнопки "Скопировать в игру" это построение оказывается в папке с игрой и Вы можете в игре им сразу пользоваться.
+4.2 Флаг (галочка) "Построение союзников" - отображает или скрывает построения других игроков (Ваших союзников)
+
+5. Обратная связь:
+5.1 Вконтакте группа: https://vk.com/shkcommunity
+5.2 Почта: shold.community@yandex.ru (shold-community@yandex.ru)
+5.3. В игре в мире Волка (мир ИИ) - Tiger_Greyhawk
+
+
+
+</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>721, 366</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FirstForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FirstForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -14,6 +14,7 @@ namespace Shold_Community
         public string name { get; set; }
         public string typeCastle { get; set; }
         public int accessFrom { get; set; }
+        public string comment { get; set; }
         public String getFromServer()
         {
 

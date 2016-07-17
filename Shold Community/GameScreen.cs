@@ -11,7 +11,7 @@ using System.Windows.Threading;
 
 namespace Shold_Community
 {
-    class Test
+    class GameScreen
     {
         
 //        public class GameClient
@@ -78,7 +78,7 @@ namespace Shold_Community
         }
 */
 
-        public Test()
+        public GameScreen()
         {
             
 //            GetGameClientArea();

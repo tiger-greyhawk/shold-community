@@ -117,23 +117,57 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="NewRequest" xml:space="preserve">
-    <value>Новый запрос: </value>
-  </data>
-  <data name="NewResReq" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NewResReq.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="offline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\offline.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="online" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\online.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>To All Players!
+
+Before you use the program, please copy all of your game files to a different place(backup your data)!!!
+
+This program will produce an incredible number of errors, it is asked to treat them with condescension.
+This is a pre-alpha version. Use the course of action for this program, as written below, to get the expected result. Not all the errors will be gone, I know, it's still alpha.
+The program is in the process of development,  it is now being tested and refined backend.
+
+
+|||I can not translate this. I need more explanation|||
+Клиентская часть (то, что вы видите) будет в дальнейшем переписываться с нуля + Andriod. В клиентской части реализовано пока что очень мало из задуманного: сохранение и обмен шаблонами построений и запросы на ресурсы. Это все видно только вашим друзьям.
+Цель задумки - снять ограничение в 40 человек (в игре в почтовом чате может быть не более 43-х человек) для быстрой координации игроков-союзников.
+У вас у каждого есть по одному инвайту (приглашению) (у первых тестеров больше) нового пользователя. Таким образом вы можете подтянуть по цепочке всю свою команду (фракцию,  Дом, других союзников).
+|||I can not translate this. I need more explanation|||
+
+
+
+The steps to set up the program.
+1. To authorize do the following:
+Press down on the Panel -&gt; "Settings" -&gt; "Authentication(sign in)"
+Next you will see a small window "Authorization Options"
+Enter the data provided by the Administrator (or your data if you were invited).
+A login window will appear.
+
+
+
+Getting started with the program:
+2. To add or remove friends go to the tab "Settings" -&gt; "Friends"
+2.1 At the moment, the addition and deletion occurs without asking another player. In the future, naturally, it will be different. + You will be able to group allies.
+
+3.Robot with villages.
+3.1 "Settings" -&gt; "Manage villages" adding at least one village. It is desirable to add an existing id of your village (to the Allies really know where to send resources).
+3.2 "Settings" -&gt; "Capacity of warehouses" - fill its max. capacity
+
+Now you can go to the "Resources" tab
+4.1 Resources.
+In this section you can keep track of requests for any kind of resource from you or friends.
+4.2 Request for resources - requires at least one village. Choose a village where resources are needed. Select the type and name of the requested resource. Enter the desired number of the resource (capacity is full automatic, if you personalize 3.2) Click on the "Search"
+
+4. Templates.
+This is the base on which tab you move automatically.
+4.1 Drop-down menu (on the left of "Friends formations") allows you to select the type of constructions.
+If you choose any you will see your added templates of added your friends. When choosing a template and press the button "Copy to the game" is the template is in a folder with the game and you can them directly use to attack.
+Flag 4.2 (tick) "Friends formations" - displays or hides the templates of other players (your allies)
+
+5. Feedback:
+5.1 FaceBook group: https://vk.com/shkcommunity
+5.2 E-mail: shold.community@yandex.ru (shold-community@yandex.ru)
+5.3. The game in the world Wolf (AI world) - Tiger_Greyhawk
+
+</value>
   </data>
 </root>
